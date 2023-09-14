@@ -1,8 +1,8 @@
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff
-    ;font-style: normal;
+    background-color: #ffffff;
+    font-style: normal;
 }
 
 a {
@@ -31,10 +31,11 @@ ul {
 .hero-order-btn:hover,
 .hero-order-btn:focus {
     color: #4D5AE5;
+    background-color: #404BBF
 }
 
 .header-logo {
-color: #4D5AE5;
+    color: #4D5AE5;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -56,6 +57,7 @@ color: #4D5AE5;
 .header-link {
     color: #2E2F42;
     font-family: Roboto;
+    font-style:normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -81,33 +83,32 @@ color: #4D5AE5;
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .hero-order-btn {
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
 .section-one {
-background: #FFF;
+    background: #FFF;
 }
 
 .goals-title {
-color: #2E2F42;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.4px;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .goals-text {
@@ -129,15 +130,13 @@ letter-spacing: 0.4px;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
 .team-item {
-    border-radius: 0px 0px 4px 4px;
-        background: #FFF;
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background: #FFF;
 }
 
 .team-list {
@@ -170,7 +169,7 @@ letter-spacing: 0.4px;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -204,9 +203,9 @@ letter-spacing: 0.4px;
 
 .footer-descr {
     color: #F4F4FD;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
