@@ -36,20 +36,20 @@ ul {
 
 .header-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logo-item {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -62,6 +62,10 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-link {
@@ -90,7 +94,7 @@ ul {
 .hero-order-btn {
     background: #4D5AE5;
     color: #FFF;
-    font-family: Roboto;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
