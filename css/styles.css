@@ -213,3 +213,13 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+.logo-item-footer {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
